@@ -6,7 +6,7 @@ let firstCard, secondCard;
 function flipCard() {
   this.classList.add('flip');
 
-  if (hasFlippedCard) {
+  if (!hasFlippedCard) {
       hasFlippedCard = true;
       firstCard = this;
   } else {
@@ -15,6 +15,7 @@ function flipCard() {
 
       console.log(firstCard.dataset.framework);
       console.log(secondCard.dataset.framework);
+      
   } 
   
 }

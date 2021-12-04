@@ -39,7 +39,7 @@ flex-wrap: wrap;
 padding-top: 20px;
 padding-left:20px;
 margin: auto;
-perspective: 1000px;
+perspective: 500px;
 }
 .card {
     width:16.666%;
